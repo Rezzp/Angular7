@@ -1,1 +1,67 @@
 /* You can add global styles to this file, and also import other style files */
+
+.jumbotron{
+    background-color: #fff;
+    padding-top:32px;
+}
+label{
+    display: block;
+    text-align:left;
+    margin-left:3px;
+    color:#4db8ff;
+    text-transform:uppercase;
+}
+.form-group{
+    margin-bottom:0.5em;
+}
+
+.btn{
+    margin:10px 0px 0px 0px;
+    background-color: #4db8ff;
+    width:100%;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+.validation-error{
+    color:red;
+    text-align:left;
+     margin:0px 0px 5px 0px;
+     padding:0px;
+}
+
+input.ng-invalid.ng-touched{
+ border-color:red;
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+    padding:15px 2px;
+    margin:0px 0px 20px 0px;
+    border-top:none;
+    background-color: #4dffff;
+    
+}
+
+.table th{
+    text-align: left;
+    padding:15px 2px;
+    margin:0px 0px 20px 0px;
+    border-top:none;
+    background-color: #4dffff;
+    
+}
+.table td{
+    text-align: left;
+    padding: 10px 5px;
+    vertical-align: none;
+}
+
+.del{
+    width:1%;
+    padding: 1px 16px 1px 8px;
+    margin:0px;
+    background-color: #fff;
+    margin-top:1px;
+   
+}
